@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1586297142952" stop="1586297150444" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user should be able to slide right on tutorial pages</name>
+    <title>Verify user should be able to slide right on tutorial pages</title>
+    <test-cases>
+        <test-case start="1586297142960" stop="1586297142960" status="passed">
+            <name>Given I am on Splash screen of the ionic conference app</name>
+            <title>Given I am on Splash screen of the ionic conference app</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297150245" stop="1586297150245" status="passed">
+            <name>When I swipe right 3 times on tutorials slides</name>
+            <title>When I swipe right 3 times on tutorials slides</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297150442" stop="1586297150442" status="passed">
+            <name>Then I verify continue button</name>
+            <title>Then I verify continue button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user should be able to slide right on tutorial pages"/>
+        <label name="feature" value="Menu feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

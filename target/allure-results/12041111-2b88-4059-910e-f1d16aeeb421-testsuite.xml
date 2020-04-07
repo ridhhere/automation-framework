@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1586297101807" stop="1586297107155" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid signup</name>
+    <title>Verify invalid signup</title>
+    <test-cases>
+        <test-case start="1586297101811" stop="1586297101811" status="passed">
+            <name>Given I am on signup screen</name>
+            <title>Given I am on signup screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297102042" stop="1586297102042" status="passed">
+            <name>When I tap on create button from signup screen</name>
+            <title>When I tap on create button from signup screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297106998" stop="1586297106998" status="passed">
+            <name>Then I verify invalid password text</name>
+            <title>Then I verify invalid password text</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297107154" stop="1586297107154" status="passed">
+            <name>And I verify invalid username text</name>
+            <title>And I verify invalid username text</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid signup"/>
+        <label name="feature" value="Menu feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1586297077311" stop="1586297080240" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify sidebar validation</name>
+    <title>Verify sidebar validation</title>
+    <test-cases>
+        <test-case start="1586297077346" stop="1586297077349" status="passed">
+            <name>Given I am on home page of the app</name>
+            <title>Given I am on home page of the app</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297078742" stop="1586297078742" status="passed">
+            <name>When I click on hamburger menu</name>
+            <title>When I click on hamburger menu</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1586297080237" stop="1586297080237" status="passed">
+            <name>Then I verify sidebar menu is displayed correctly</name>
+            <title>Then I verify sidebar menu is displayed correctly</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Ridhs-MBP"/>
+                <label name="thread" value="6457@Ridhs-MBP.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify sidebar validation"/>
+        <label name="feature" value="Menu feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
