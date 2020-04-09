@@ -13,8 +13,6 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 
-import java.util.Iterator;
-import java.util.Set;
 
 public class DarkSkySD {
     DarkSkyHomePage darkSkyHomePage = new DarkSkyHomePage();
@@ -39,7 +37,7 @@ public class DarkSkySD {
     }
 
     @When("^I expand todays timeline$")
-    public void expandTodayTimeline() throws InterruptedException {
+    public void expandTodayTimeline() {
         darkSkyHomePage.scrollToTodayTimeline();
         darkSkyHomePage.clickOnTodayTimeline();
     }
